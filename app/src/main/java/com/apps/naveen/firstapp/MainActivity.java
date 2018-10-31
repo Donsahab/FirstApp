@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
                 textView.setText(b + "");
 
-                Snackbar.make(view,"Chnage Value to "+a+ " To "+b,Snackbar.LENGTH_LONG).setAction("Action",null).show();
+                Snackbar.make(view,"Chnage Value "+a+ " To "+b,Snackbar.LENGTH_LONG).setAction("Action",null).show();
 
             }
         });
